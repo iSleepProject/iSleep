@@ -1,0 +1,64 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/login/register",
+    "pages/login/findpass",
+    "pages/login/changepass",
+    "pages/index/index",
+    "pages/music/index",
+    "pages/upload/index",
+    "pages/upload/change"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#34495e",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "iconfontSrc": "static/iconfont.ttf",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconfont": {
+          "text": "",
+          "selectedText": "",
+          "fontSize": "16px",
+          "color": "#000000",
+          "selectedColor": "#0000ff"
+        },
+        "iconPath": "static/index.png",
+        "selectedIconPath": "static/index-active.png"
+      },
+      {
+        "pagePath": "pages/music/index",
+        "text": "播放",
+        "iconfont": {
+          "text": "",
+          "selectedText": "",
+          "fontSize": "16px",
+          "color": "#000000",
+          "selectedColor": "#0000ff"
+        },
+        "iconPath": "static/music.png",
+        "selectedIconPath": "static/music-active.png"
+      },
+      {
+        "pagePath": "pages/upload/index",
+        "text": "我的",
+        "iconfont": {
+          "text": "",
+          "selectedText": "",
+          "fontSize": "16px",
+          "color": "#000000",
+          "selectedColor": "#0000ff"
+        },
+        "iconPath": "static/info.png",
+        "selectedIconPath": "static/info-active.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

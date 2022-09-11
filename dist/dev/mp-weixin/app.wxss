@@ -1,0 +1,18 @@
+
+/*每个页面公共css */
+page {
+  background: linear-gradient(#9cbbda00 0%, #00000000 50%, #000000ff 100%),
+    url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2Fc-ssl.duitang.com%2Fuploads%2Fitem%2F201711%2F24%2F20171124171116_vLUhu.thumb.400_0.jpeg&refer=http%3A%2F%2Fc-ssl.duitang.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=auto?sec=1658890789&t=ebd5085de80fbc16f089f5c70a2bb4fa");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container {
+  font-family: "webfont" !important;
+  font-size: 14px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+page{--status-bar-height:25px;--top-window-height:0px;--window-top:0px;--window-bottom:0px;--window-left:0px;--window-right:0px;--window-magin:0px}[data-c-h="true"]{display: none !important;}

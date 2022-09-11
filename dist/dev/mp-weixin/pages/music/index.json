@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "睡了么",
+  "usingComponents": {
+    "uni-drawer": "../../node-modules/@dcloudio/uni-ui/lib/uni-drawer/uni-drawer"
+  }
+}
